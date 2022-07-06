@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 
 export const Inicio = () => {
   return (
-    <Container>
+    <Container style={{ backgroundColor: '#ffffff' }}>
       <Form>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
