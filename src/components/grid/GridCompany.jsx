@@ -22,7 +22,7 @@ export const GridCompany = () => {
     <div className="container-xxl">
       <div className="mt-3 d-flex justify-content-center">
 
-        <div style={{ height: 700, width: '100%', backgroundColor: '#ffffff' }}>
+        <div style={{ height: 700, width: '100%', backgroundColor: '#ffffff', borderRadius: '30px' }}>
           <DataGrid
             rows={tableData}
             columns={columns}
