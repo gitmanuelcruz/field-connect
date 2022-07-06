@@ -22,12 +22,12 @@ export const GridCompany = () => {
     <div className="container-xxl">
       <div className="mt-3 d-flex justify-content-center">
 
-        <div style={{ height: 700, width: '100%', backgroundColor: '#ffffff', borderRadius: '30px' }}>
+        <div style={{ height: 600, width: '100%', backgroundColor: '#ffffff', borderRadius: '30px' }}>
           <DataGrid
             rows={tableData}
             columns={columns}
-            pageSize={10}
-            rowsPerPageOptions={[10]}
+            pageSize={8}
+            rowsPerPageOptions={[5]}
             />
         </div>
       </div>
