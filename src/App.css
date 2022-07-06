@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.contenedor{
+  background-color: #f2f5fb;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +15,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.titulo{
+  color: #666666;
 }
 
 .App-header {
