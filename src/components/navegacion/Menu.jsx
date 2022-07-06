@@ -6,7 +6,7 @@ export const Menu = () => {
       <nav className="navbar navbar-expand-lg navbar-primary menu-fondo">
         <div className='container-fluid'>
           <Link to='/'>
-            <img src="../../field-connect.png" className="logo" width={200} />
+            <img src="./field-connect.png" className="logo" width={200} />
           </Link>
           <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
