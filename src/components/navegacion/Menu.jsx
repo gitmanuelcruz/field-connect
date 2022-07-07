@@ -15,15 +15,15 @@ export const Menu = () => {
           <div className='collapse navbar-collapse' id='navbarNav'>
             <ul className='navbar-nav mx-auto'>
                 <NavLink 
-                  className={ ({isActive}) => `nav-item nav-link ${ isActive ? 'active':''}` }
+                  className={ ({isActive}) => `nav-item nav-link ${ isActive ? 'menu-active':'menu-title'}` }
                   to='/inicio'>Create Company
                 </NavLink>
                 <NavLink 
-                  className={ ({isActive}) => `nav-item nav-link ${ isActive ? 'active':''}` }
+                  className={ ({isActive}) => `nav-item nav-link ${ isActive ? 'menu-active':'menu-title'}` }
                   to='/items'>Impersonate
                 </NavLink>
                 <NavLink 
-                  className={ ({isActive}) => `nav-item nav-link ${ isActive ? 'active':''}` }
+                  className={ ({isActive}) => `nav-item nav-link ${ isActive ? 'menu-active':'menu-title'}` }
                   to='/pokemon'>Role permissions
                 </NavLink>
             </ul>
