@@ -1,6 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-
-const logo = 'assets/field-connect.png';
+import logo from '../../assets/field-connect.png';
 
 export const Menu = () => {
   return (
