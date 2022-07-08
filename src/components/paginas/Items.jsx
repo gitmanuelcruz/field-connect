@@ -1,11 +1,11 @@
-import { GridCompany } from '../grid/GridCompany';
+import DatatablePage from '../grid/DatatablePage';
 
 export const Items = () => {
   return (
     <>
-        <GridCompany>
+        <DatatablePage>
           
-        </GridCompany>
+        </DatatablePage>
     </>
   )
 }
